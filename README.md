@@ -61,6 +61,23 @@ O login e senha padrão são "usuario" e "teste". A autenticação é feita pass
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
 
+<!--
+É possível ordenar os dados, por exemplo:
+```
+http://localhost:8080/medicos?sort[crm]=ASC&sort[nome]=DESC
+```
+
+Também é possível filtrar passando os parâmetros pela url:
+```
+http://localhost:8080/medicos?crm=123456
+```
+--> 
+
+Utilize a páginação da seguinte forma:
+```
+http://localhost:8080/videos?page=1&per_page=2
+```
+
 #### Retornar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
