@@ -38,6 +38,8 @@ php artisan migrate
 ``` 
 php artisan serve
 ```
+## Padrão
+O padrão de formato utilizado é o Json tanto para requisições como resposta.
 
 ## URL Base
  > http://127.0.0.1:8000/api/
