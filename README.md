@@ -44,38 +44,47 @@ php artisan serve
 
 ## Rotas
 
+<!--
+### Autenticação
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+| GET | /login | Retorna token obrigatório em todas as outras requisições | <pre>{<br>"usuario": "usuario",<br>"senha": "teste"<br>}</pre> | - |
+
+O login e senha padrão são "usuario" e "teste". A autenticação é feita passando um Bearer Token como Authorization.
+-->
+
 ### Videos
 #### Retornar videos
-| Verbo | Recurso |
-|---| ---|
-|GET | /videos |
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | /videos | Retornar todos os videos | - | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
 
 #### Retornar um video
-| Verbo | Recurso |
-|---| ---|
-|GET | /videos/{id} |
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | /videos/{id} | Retornar um video por id | - | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_video.jpg)
 
 #### Cadastrar um video
-| Verbo | Recurso |
-|---| ---|
-|POST | /videos |
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|POST | /videos | Cadastrar um video | <br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br> | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
 
 #### Atualizar um video
-| Verbo | Recurso |
-|---| ---|
-|PUT | /videos/{id} |
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|PUT | /videos/{id} |Atualizar um video por id | <br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br> | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
 
 #### Deletar um video
-| Verbo | Recurso |
-|---| ---|
-|DELETE | /videos/{id} |
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|DELETE | /videos/{id} |Deletar um video por id | - | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/delete_video.jpg)
