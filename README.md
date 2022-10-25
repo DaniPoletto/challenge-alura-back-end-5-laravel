@@ -47,22 +47,32 @@ php artisan serve
 |---| ---|
 |GET | /videos |
 
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
+
 #### Retornar um video
 | Verbo | Recurso |
 |---| ---|
 |GET | /videos/{id} |
+
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_video.jpg)
 
 #### Cadastrar um video
 | Verbo | Recurso |
 |---| ---|
 |POST | /videos |
 
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
+
 #### Atualizar um video
 | Verbo | Recurso |
 |---| ---|
 |PUT | /videos/{id} |
 
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
+
 #### Deletar um video
 | Verbo | Recurso |
 |---| ---|
 |DELETE | /videos/{id} |
+
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/delete_video.jpg)
