@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Video;
+use Illuminate\Http\Request;
 use App\Http\Requests\VideoRequest;
 
 class VideoController extends Controller
@@ -12,10 +13,12 @@ class VideoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $per_page = ($request->get("per_page") !== null) ? $request->get("per_page") : 5;
+
         $query = Video::query();
-        return $query->paginate(5);
+        return $query->paginate($per_page);
     }
 
     /**
