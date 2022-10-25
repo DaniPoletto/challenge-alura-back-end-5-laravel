@@ -71,14 +71,14 @@ O login e senha padrão são "usuario" e "teste". A autenticação é feita pass
 #### Cadastrar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
-|POST | /videos | Cadastrar um video | <br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br> | - |
+|POST | /videos | Cadastrar um video | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
 
 #### Atualizar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
-|PUT | /videos/{id} |Atualizar um video por id | <br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br> | - |
+|PUT | /videos/{id} |Atualizar um video por id | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
 
