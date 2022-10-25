@@ -2,6 +2,9 @@
 
 > :construction: Projeto em construção :construction:
 
+## Versão em Symfony
+> [Versão em Symfony](https://github.com/DaniPoletto/challenge-alura-back-end-5-symfony)
+
 ## O que é um challenge
 São 4 semanas de desafios propostos pela plataforma de ensino Alura com o objetivo de praticar construindo um projeto. Toda semana são disponibilizados desafios e o aluno deve usar o material de apoio fornecido a cada semana para resolver o desafio proposto. 
 
