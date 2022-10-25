@@ -55,44 +55,42 @@ O padrão de formato utilizado é o Json tanto para requisições como resposta.
 O login e senha padrão são "usuario" e "teste". A autenticação é feita passando um Bearer Token como Authorization.
 -->
 
-### Videos
-#### Retornar videos
+### 1 Videos
+#### 1.1 Retornar videos
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |GET | /videos | Retornar todos os videos | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
-
-<!--
-É possível ordenar os dados, por exemplo:
+##### 1.1.1 Ordenação
 ```
-http://localhost:8080/medicos?sort[crm]=ASC&sort[nome]=DESC
+http://localhost:8080/videos?sort[titulo]=ASC&sort[url]=DESC
 ```
 
-Também é possível filtrar passando os parâmetros pela url:
+##### 1.1.2 Filtros
 ```
-http://localhost:8080/medicos?crm=123456
+http://localhost:8080/videos?titulo=curso laravel
 ```
---> 
 
-Utilize a páginação da seguinte forma:
+##### 1.1.3 Paginação
 ```
 http://localhost:8080/videos?page=1&per_page=2
 ```
 
-#### Retornar um video
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
+
+#### 1.2 Retornar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |GET | /videos/{id} | Retornar um video por id | - | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_video.jpg)
 
-#### Cadastrar um video
+#### 1.3 Cadastrar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |POST | /videos | Cadastrar um video | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
 
-##### Campos
+##### 1.3.1 Campos
 
 | Nome | Tipo | Descrição | 
 | --- | --- | --- | 
@@ -102,12 +100,12 @@ http://localhost:8080/videos?page=1&per_page=2
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
 
-#### Atualizar um video
+#### 1.4 Atualizar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |PUT | /videos/{id} |Atualizar um video por id | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
 
-##### Campos
+##### 1.4.1 Campos
 
 | Nome | Tipo | Descrição | 
 | --- | --- | --- | 
@@ -117,7 +115,7 @@ http://localhost:8080/videos?page=1&per_page=2
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
 
-#### Deletar um video
+#### 1.5 Deletar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |DELETE | /videos/{id} |Deletar um video por id | - | - |
