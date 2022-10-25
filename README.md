@@ -2,9 +2,6 @@
 
 > :construction: Projeto em construção :construction:
 
-## Versão em Symfony
-> [Versão em Symfony](https://github.com/DaniPoletto/challenge-alura-back-end-5-symfony)
-
 ## O que é um challenge
 São 4 semanas de desafios propostos pela plataforma de ensino Alura com o objetivo de praticar construindo um projeto. Toda semana são disponibilizados desafios e o aluno deve usar o material de apoio fornecido a cada semana para resolver o desafio proposto. 
 
@@ -20,6 +17,9 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
 
 ## Tecnologias utilizadas
 [Laravel 8](https://laravel.com/) com PHP 7.3.5. 
+
+## Versão em Symfony
+> [Versão em Symfony](https://github.com/DaniPoletto/challenge-alura-back-end-5-symfony)
 
 ## Como inicializar o projeto
 1 - Baixar os arquivos do repositório utilizando git clone
