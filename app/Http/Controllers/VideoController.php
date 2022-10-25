@@ -15,9 +15,20 @@ class VideoController extends Controller
      */
     public function index(Request $request)
     {
-        $per_page = ($request->get("per_page") !== null) ? $request->get("per_page") : 5;
+        $per_page = ($request->has("per_page")) ? $request->per_page : 5;
 
         $query = Video::query();
+
+        foreach ($request->all() as $key => $value) {
+            if ($key == "sort") {
+                foreach ($request->sort as $key => $value) {
+                    $query->orderBy($key, $value);
+                }
+            } else {
+                $query->where($key, $value);
+            }
+        }
+
         return $query->paginate($per_page);
     }
 
@@ -30,9 +41,7 @@ class VideoController extends Controller
     public function store(VideoRequest $request)
     {
         $video = Video::create($request->validated());
-
-        return response()
-            ->json($video, 201);
+        return response()->json($video, 201);
     }
 
     /**
@@ -75,8 +84,7 @@ class VideoController extends Controller
     public function destroy(Video $video)
     {
         if ($video->delete()) {
-            return response()
-                ->json("Video deletado com sucesso", 200);
+            return response()->json("Video deletado com sucesso", 200);
         }
 
         return response()->json("Erro ao tentar deletar video", 500);
