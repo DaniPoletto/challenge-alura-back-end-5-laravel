@@ -90,12 +90,28 @@ http://localhost:8080/videos?page=1&per_page=2
 | --- | --- | --- | --- | --- |
 |POST | /videos | Cadastrar um video | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
 
+##### Campos
+
+| Nome | Tipo | Descrição | 
+| --- | --- | --- | 
+|titulo | string | Obrigatório | 
+|descricao | string | Obrigatório | 
+|url | string | Obrigatório | 
+
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
 
 #### Atualizar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |PUT | /videos/{id} |Atualizar um video por id | <pre>{<br> "titulo": "Aula Laravel",<br> "descricao": "videoaula de laravel",<br> "url": "laravel.com.br"<br>}</pre> | - |
+
+##### Campos
+
+| Nome | Tipo | Descrição | 
+| --- | --- | --- | 
+|titulo | string | Obrigatório | 
+|descricao | string | Obrigatório | 
+|url | string | Obrigatório | 
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
 
