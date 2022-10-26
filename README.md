@@ -53,6 +53,12 @@ O padrão de formato utilizado é o Json tanto para requisições como resposta.
 
 O login e senha padrão são "teste@teste.com.br" e "123456". A autenticação é feita passando um Bearer Token como Authorization.
 
+### Cabeçalhos
+Todas as rotas devem receber os cabeçalhos:
+| Cabeçalho | Valor | 
+| --- | --- | 
+| Accept | application/json |
+
 ### 1 Videos
 #### 1.1 Retornar videos
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
