@@ -46,14 +46,12 @@ O padrão de formato utilizado é o Json tanto para requisições como resposta.
 
 ## Rotas
 
-<!--
 ### Autenticação
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
-| GET | /login | Retorna token obrigatório em todas as outras requisições | <pre>{<br>"usuario": "usuario",<br>"senha": "teste"<br>}</pre> | - |
+| GET | /login | Retorna token obrigatório em todas as outras requisições | <pre>{<br>"usuario": "teste@teste.com.br",<br>"senha": "123456"<br>}</pre> | - |
 
-O login e senha padrão são "usuario" e "teste". A autenticação é feita passando um Bearer Token como Authorization.
--->
+O login e senha padrão são "teste@teste.com.br" e "123456". A autenticação é feita passando um Bearer Token como Authorization.
 
 ### 1 Videos
 #### 1.1 Retornar videos
