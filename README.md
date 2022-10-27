@@ -16,7 +16,7 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
 - [ ] <b>3ª e 4ª semana</b> - Na última fase do desafio o objetivo será a implementação de mais funcionalidades: paginação, autenticação; deploy da aplicação.-
 
 ## Tecnologias utilizadas
-[Laravel 8](https://laravel.com/) com PHP 7.3.5. 
+[Laravel 8](https://laravel.com/), MySql e PHP 7.3.5. 
 
 ## Versão em Symfony
 > [Versão em Symfony](https://github.com/DaniPoletto/challenge-alura-back-end-5-symfony)
@@ -32,6 +32,11 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
 4 - Rodar as migrations
 ```
 php artisan migrate
+```
+
+5 - Rodar seeder para criar usuário teste
+```
+php artisan db:seed --class=AdminUserSeeder
 ```
 
 5 - Subir o servidor
