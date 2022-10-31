@@ -26,7 +26,8 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
    - [ ] Atribuir vídeo a categoria
    - [ ] Retornar vídeos por categoria
    - [X] Utilizar query parameters em vídeo
-   - [ ] Testes Postman
+   - [ ] Testes de unidade
+   - [ ] Testes de integração
 
 - [ ] <b>3ª e 4ª semana</b> - Paginação, autenticação e deploy da aplicação.
    - [X] Paginação
