@@ -50,10 +50,9 @@ class VideoController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Video  $video
      * @return \Illuminate\Http\Response
      */
-    public function show(Video $video)
+    public function show($video)
     {
         $videoModel = Video::find($video);
         if ($videoModel === null) {

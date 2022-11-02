@@ -47,10 +47,9 @@ class CategoriaController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Categoria  $categoria
      * @return \Illuminate\Http\Response
      */
-    public function show(Categoria $categoria)
+    public function show($categoria)
     {
         $categoriaModel = Categoria::find($categoria);
         if ($categoria === null) {
