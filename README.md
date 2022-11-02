@@ -18,12 +18,12 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
    - [X] Testes Postman
 
 - [ ] <b>2ª semana</b> - CRUD de categorias e testes de unidade e integração.
-   - [ ] Retornar categorias
-   - [ ] Retornar um categoria
-   - [ ] Cadastrar categoria
-   - [ ] Atualizar categoria
-   - [ ] Deletar categoria
-   - [ ] Atribuir vídeo a categoria
+   - [X] Retornar categorias
+   - [X] Retornar um categoria
+   - [X] Cadastrar categoria
+   - [X] Atualizar categoria
+   - [X] Deletar categoria
+   - [X] Atribuir vídeo a categoria
    - [ ] Retornar vídeos por categoria
    - [X] Utilizar query parameters em vídeo
    - [ ] Testes de unidade
