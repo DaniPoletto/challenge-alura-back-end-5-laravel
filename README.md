@@ -222,4 +222,4 @@ http://localhost:8080/videos?page=1&per_page=2
 | --- | --- | --- | --- | --- |
 |GET | /categorias/{id}/videos | Retornar todos os videos de uma categoria por id | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/videos_por_categoria.jpg)
