@@ -24,7 +24,7 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
    - [X] Atualizar categoria
    - [X] Deletar categoria
    - [X] Atribuir vídeo a categoria
-   - [ ] Retornar vídeos por categoria
+   - [X] Retornar vídeos por categoria
    - [X] Utilizar query parameters em vídeo
    - [ ] Testes de unidade
    - [ ] Testes de integração
@@ -216,3 +216,10 @@ http://localhost:8080/videos?page=1&per_page=2
 |DELETE | /videos/{id} |Deletar um video por id | - | - |
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/delete_video.jpg)
+
+#### 2.6 Retornar vídeos por categoria
+| Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
+| --- | --- | --- | --- | --- |
+|GET | /categorias/{id}/videos | Retornar todos os videos de uma categoria por id | - | - |
+
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_video.jpg)
