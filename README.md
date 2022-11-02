@@ -104,14 +104,14 @@ http://localhost:8080/categorias?titulo=curso
 http://localhost:8080/categorias?page=1&per_page=2
 ```
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_categorias.jpg)
 
 #### 1.2 Retornar uma categoria
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |GET | /categorias/{id} | Retornar uma categoria por id | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_categoria.jpg)
 
 #### 1.3 Cadastrar uma categoria
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
@@ -125,7 +125,7 @@ http://localhost:8080/categorias?page=1&per_page=2
 |titulo | string | Obrigatório | 
 |cor | string | Obrigatório | 
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/post_categoria.jpg)
 
 #### 1.4 Atualizar uma categoria
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
@@ -139,14 +139,14 @@ http://localhost:8080/categorias?page=1&per_page=2
 |titulo | string | Obrigatório | 
 |cor | string | Obrigatório | 
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/update_categoria.jpg)
 
 #### 1.5 Deletar uma categoria
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |DELETE | /categorias/{id} |Deletar uma categoria por id | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/delete_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/delete_categoria.jpg)
 
 ### 2 Videos
 #### 2.1 Retornar videos
@@ -169,14 +169,14 @@ http://localhost:8080/videos?titulo=curso laravel
 http://localhost:8080/videos?page=1&per_page=2
 ```
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_videos.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_videos.jpg)
 
 #### 2.2 Retornar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |GET | /videos/{id} | Retornar um video por id | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/get_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_video.jpg)
 
 #### 2.3 Cadastrar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
@@ -192,7 +192,7 @@ http://localhost:8080/videos?page=1&per_page=2
 |url | string | Obrigatório | 
 |categorias_id | int | Opcional | 
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/post_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/post_video.jpg)
 
 #### 2.4 Atualizar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
@@ -208,11 +208,11 @@ http://localhost:8080/videos?page=1&per_page=2
 |url | string | Obrigatório | 
 |categorias_id | int | Opcional | 
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/update_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/update_video.jpg)
 
 #### 2.5 Deletar um video
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
 |DELETE | /videos/{id} |Deletar um video por id | - | - |
 
-![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/delete_video.jpg)
+![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/delete_video.jpg)
