@@ -10,10 +10,29 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
 
 ### Desafios de cada semana
 - [X] <b>1ª semana</b> - CRUD de videos e testes de api utilizando Postman
+   - [X] Retornar vídeos
+   - [X] Retornar um vídeo
+   - [X] Cadastrar vídeo
+   - [X] Atualizar vídeo
+   - [X] Deletar vídeo
+   - [X] Testes Postman
 
-- [ ] <b>2ª semana</b> - Nesta segunda semana do desafio o objetivo é criar mais de um modelo/entidade, rotas CRUD e relacionais, buscas na base via parâmetros de query, fazer testes de unidade e integração.
+- [ ] <b>2ª semana</b> - CRUD de categorias e testes de unidade e integração.
+   - [ ] Retornar categorias
+   - [ ] Retornar um categoria
+   - [ ] Cadastrar categoria
+   - [ ] Atualizar categoria
+   - [ ] Deletar categoria
+   - [ ] Atribuir vídeo a categoria
+   - [ ] Retornar vídeos por categoria
+   - [X] Utilizar query parameters em vídeo
+   - [ ] Testes de unidade
+   - [ ] Testes de integração
 
-- [ ] <b>3ª e 4ª semana</b> - Na última fase do desafio o objetivo será a implementação de mais funcionalidades: paginação, autenticação; deploy da aplicação.-
+- [ ] <b>3ª e 4ª semana</b> - Paginação, autenticação e deploy da aplicação.
+   - [X] Paginação
+   - [X] Autenticação
+   - [ ] Deploy
 
 ## Tecnologias utilizadas
 [Laravel 8](https://laravel.com/), MySql e PHP 7.3.5. 
