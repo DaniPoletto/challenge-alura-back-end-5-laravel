@@ -27,7 +27,6 @@ Route::middleware('auth:sanctum')->group(function() {
 });
 
 Route::post('/login', function(Request $request) {
-    return "ok";
     $credentials = $request->only(['email', 'password']);
     if (Auth::attempt($credentials) === false) {
         return response()->json('Unauthorized', 401);
@@ -37,4 +36,8 @@ Route::post('/login', function(Request $request) {
     $token = $user->createToken('token');
 
     return response()->json($token->plainTextToken);
+});
+
+Route::get('/teste', function(){
+    return response()->json("teste");
 });
