@@ -37,7 +37,3 @@ Route::post('/login', function(Request $request) {
 
     return response()->json($token->plainTextToken);
 });
-
-Route::get('/teste', function(){
-    return response()->json("teste");
-});
