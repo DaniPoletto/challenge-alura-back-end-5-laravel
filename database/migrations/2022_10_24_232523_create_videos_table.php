@@ -18,6 +18,13 @@ class CreateVideosTable extends Migration
             $table->string('titulo', 128);
             $table->string('descricao', 128);
             $table->string('url', 128);
+
+            $table->foreignId('categorias_id')->constrained();
+
+            // $table->unsignedBigInteger('categorias_id');
+            // $table->foreign('categorias_id')
+            //     ->references('id')->on('categorias');
+
             $table->timestamps();
         });
     }

@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\VideoController;
+use App\Http\Controllers\CategoriaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,7 +22,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::middleware('auth:sanctum')->group(function() {
-    Route::apiResource('/videos', \App\Http\Controllers\VideoController::class);
+    Route::apiResource('/videos', VideoController::class);
+    Route::apiResource('/categorias', CategoriaController::class);
 });
 
 Route::post('/login', function(Request $request) {

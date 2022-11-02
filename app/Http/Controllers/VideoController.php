@@ -40,7 +40,10 @@ class VideoController extends Controller
      */
     public function store(VideoRequest $request)
     {
-        $video = Video::create($request->validated());
+        $validatedData = $request->validated();
+        $validatedData['categorias_id'] = $validatedData['categorias_id'] ?? 1;        
+
+        $video = Video::create($validatedData);
         return response()->json($video, 201);
     }
 

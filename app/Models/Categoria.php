@@ -2,23 +2,21 @@
 
 namespace App\Models;
 
-use App\Models\Categoria;
+use App\Models\Video;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
-class Video extends Model
+class Categoria extends Model
 {
     use HasFactory;
 
     protected $fillable = [
         'titulo',
-        'descricao',
-        'url',
-        'categorias_id'
+        'cor',
     ];
 
-    public function categoria()
+    public function videos()
     {
-        return $this->belongsTo(Categoria::class);
+        return $this->hasMany(Video::class, 'categorias_id');
     }
 }

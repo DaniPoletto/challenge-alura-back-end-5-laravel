@@ -2,11 +2,10 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Contracts\Validation\Validator;
-use Illuminate\Http\Exceptions\HttpResponseException;
+use Illuminate\Foundation\Http\FormRequest;
 
-class VideoRequest extends FormRequest
+class CategoriaRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -27,9 +26,7 @@ class VideoRequest extends FormRequest
     {
         return [
             'titulo' => 'required|string',
-            'descricao' => 'required|string',
-            'url' => 'required|string',
-            'categorias_id' => 'nullable|int'
+            'cor' => 'required|string'
         ];
     }
 
