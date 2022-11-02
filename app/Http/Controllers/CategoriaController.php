@@ -88,4 +88,9 @@ class CategoriaController extends Controller
 
         return response()->json("Erro ao tentar deletar categoria", 500);
     }
+
+    public function videosPorCategoria(Categoria $categoria) {
+        $videos = $categoria->videos;
+        return $videos;
+    }
 }

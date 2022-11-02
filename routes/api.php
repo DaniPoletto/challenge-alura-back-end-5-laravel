@@ -24,6 +24,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::middleware('auth:sanctum')->group(function() {
     Route::apiResource('/videos', VideoController::class);
     Route::apiResource('/categorias', CategoriaController::class);
+    Route::get('/categorias/{categoria}/videos', [CategoriaController::class, "videosPorCategoria"]);
 });
 
 Route::post('/login', function(Request $request) {
