@@ -29,10 +29,10 @@ Essa edição tem como objetivo construir uma api de plataforma de streaming.
    - [ ] Testes de unidade
    - [ ] Testes de integração
 
-- [ ] <b>3ª e 4ª semana</b> - Paginação, autenticação e deploy da aplicação.
+- [X] <b>3ª e 4ª semana</b> - Paginação, autenticação e deploy da aplicação.
    - [X] Paginação
    - [X] Autenticação
-   - [ ] Deploy
+   - [X] Deploy
 
 ## Tecnologias utilizadas
 [Laravel 8](https://laravel.com/), MySql e PHP 7.3.5. 
@@ -66,7 +66,7 @@ php artisan serve
 O padrão de formato utilizado é o Json tanto para requisições como resposta.
 
 ## URL Base
- > http://127.0.0.1:8000/api/
+ > https://challenge-alura-back-end-5-laravel-gi71.vercel.app/api/
 
 ## Rotas
 
