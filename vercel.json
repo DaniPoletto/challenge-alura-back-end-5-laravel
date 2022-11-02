@@ -11,7 +11,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "/api/index.php"
+            "dest": "/api-vercel/index.php"
         }
     ],
     "env": {
