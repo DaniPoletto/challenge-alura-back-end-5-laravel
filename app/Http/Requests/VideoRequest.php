@@ -28,7 +28,7 @@ class VideoRequest extends FormRequest
         return [
             'titulo' => 'required|string',
             'descricao' => 'required|string',
-            'url' => 'required|string',
+            'url' => 'required|url',
             'categorias_id' => 'nullable|int'
         ];
     }
