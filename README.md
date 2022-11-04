@@ -91,17 +91,17 @@ Todas as rotas devem receber os cabeçalhos:
 
 ##### 1.1.1 Ordenação
 ```
-http://localhost:8080/categorias?sort[titulo]=ASC&sort[cor]=DESC
+/categorias?sort[titulo]=ASC&sort[cor]=DESC
 ```
 
 ##### 1.1.2 Filtros
 ```
-http://localhost:8080/categorias?titulo=curso
+/categorias?titulo=curso
 ```
 
 ##### 1.1.3 Paginação
 ```
-http://localhost:8080/categorias?page=1&per_page=2
+/categorias?page=1&per_page=2
 ```
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_categorias.jpg)
@@ -156,17 +156,17 @@ http://localhost:8080/categorias?page=1&per_page=2
 
 ##### 2.1.1 Ordenação
 ```
-http://localhost:8080/videos?sort[titulo]=ASC&sort[url]=DESC
+/videos?sort[titulo]=ASC&sort[url]=DESC
 ```
 
 ##### 2.1.2 Filtros
 ```
-http://localhost:8080/videos?titulo=curso laravel
+/videos?titulo=curso laravel
 ```
 
 ##### 2.1.3 Paginação
 ```
-http://localhost:8080/videos?page=1&per_page=2
+/videos?page=1&per_page=2
 ```
 
 ![Video](https://github.com/DaniPoletto/challenge-alura-back-end-5-laravel/blob/main/imagens_readme/get_videos.jpg)
