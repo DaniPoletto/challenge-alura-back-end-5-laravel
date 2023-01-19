@@ -73,7 +73,7 @@ O padrão de formato utilizado é o Json tanto para requisições como resposta.
 ### Autenticação
 | Método | Rota | Descrição | BODY PARAMS | QUERY PARAMS |
 | --- | --- | --- | --- | --- |
-| GET | /login | Retorna token obrigatório em todas as outras requisições | <pre>{<br>"usuario": "teste@teste.com.br",<br>"senha": "123456"<br>}</pre> | - |
+| POST | /login | Retorna token obrigatório em todas as outras requisições | <pre>{<br>"usuario": "teste@teste.com.br",<br>"senha": "123456"<br>}</pre> | - |
 
 O login e senha padrão são "teste@teste.com.br" e "123456". A autenticação é feita passando um Bearer Token como Authorization.
 
